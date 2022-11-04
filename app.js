@@ -9,6 +9,6 @@ slides.forEach(item => {
 
 function clearActiveClassses(){
   slides.forEach(item => {
-    item.classList.remove("active");
+    item.classList.remove("active")
   });
 }
