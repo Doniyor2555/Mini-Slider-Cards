@@ -1,9 +1,9 @@
-const slides = document.querySelectorAll(".slide");
+const slides = document.querySelectorAll(".slide")
 
 slides.forEach(item => {
   item.addEventListener("click", () => {
     clearActiveClassses();
-    item.classList.add("active")
+    item.classList.add("active");
   });
 });
 
